@@ -1,0 +1,4 @@
+"C:\Users\Shridhar BL\PycharmProjects\Bootcamp\venv\Scripts\python.exe" "C:/Users/Shridhar BL/PycharmProjects/Bootcamp/main.py"
+ the hexadecimal equivalent of hash is : 2ee8351dfd5593cf488ace7b19042ca9
+
+Process finished with exit code 0

@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>algorithms.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #808080;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+algorithms.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">hashlib</span>
+
+<span class="s2"># initializing string</span>
+<span class="s1">str = </span><span class="s3">&quot;Nikitha&quot;</span>
+
+<span class="s2"># encoding Nikitha using encode()</span>
+<span class="s2"># then sending to SHA256()</span>
+<span class="s1">result = hashlib.sha256(str.encode())</span>
+
+<span class="s2"># printing the equivalent hexadecimal value.</span>
+<span class="s1">print(</span><span class="s3">&quot;The hexadecimal equivalent of SHA256 is : &quot;</span><span class="s1">)</span>
+<span class="s1">print(result.hexdigest())</span>
+
+<span class="s1">print(</span><span class="s3">&quot;</span><span class="s0">\r</span><span class="s3">&quot;</span><span class="s1">)</span>
+
+<span class="s2"># initializing string</span>
+<span class="s1">str = </span><span class="s3">&quot;Nikitha&quot;</span>
+
+<span class="s2"># encoding Nikitha using encode()</span>
+<span class="s2"># then sending to SHA384()</span>
+<span class="s1">result = hashlib.sha384(str.encode())</span>
+
+<span class="s2"># printing the equivalent hexadecimal value.</span>
+<span class="s1">print(</span><span class="s3">&quot;The hexadecimal equivalent of SHA384 is : &quot;</span><span class="s1">)</span>
+<span class="s1">print(result.hexdigest())</span>
+
+<span class="s1">print(</span><span class="s3">&quot;</span><span class="s0">\r</span><span class="s3">&quot;</span><span class="s1">)</span>
+
+<span class="s2"># initializing string</span>
+<span class="s1">str = </span><span class="s3">&quot;Nikitha&quot;</span>
+
+<span class="s2"># encoding Nikitha using encode()</span>
+<span class="s2"># then sending to SHA224()</span>
+<span class="s1">result = hashlib.sha224(str.encode())</span>
+
+<span class="s2"># printing the equivalent hexadecimal value.</span>
+<span class="s1">print(</span><span class="s3">&quot;The hexadecimal equivalent of SHA224 is : &quot;</span><span class="s1">)</span>
+<span class="s1">print(result.hexdigest())</span>
+
+<span class="s1">print(</span><span class="s3">&quot;</span><span class="s0">\r</span><span class="s3">&quot;</span><span class="s1">)</span>
+
+<span class="s2"># initializing string</span>
+<span class="s1">str = </span><span class="s3">&quot;Nikitha&quot;</span>
+
+<span class="s2"># encoding Nikitha using encode()</span>
+<span class="s2"># then sending to SHA512()</span>
+<span class="s1">result = hashlib.sha512(str.encode())</span>
+
+<span class="s2"># printing the equivalent hexadecimal value.</span>
+<span class="s1">print(</span><span class="s3">&quot;The hexadecimal equivalent of SHA512 is : &quot;</span><span class="s1">)</span>
+<span class="s1">print(result.hexdigest())</span>
+
+<span class="s1">print(</span><span class="s3">&quot;</span><span class="s0">\r</span><span class="s3">&quot;</span><span class="s1">)</span>
+
+<span class="s2"># initializing string</span>
+<span class="s1">str = </span><span class="s3">&quot;Nikitha&quot;</span>
+
+<span class="s2"># encoding Nikitha using encode()</span>
+<span class="s2"># then sending to SHA1()</span>
+<span class="s1">result = hashlib.sha1(str.encode())</span>
+
+<span class="s2"># printing the equivalent hexadecimal value.</span>
+<span class="s1">print(</span><span class="s3">&quot;The hexadecimal equivalent of SHA1 is : &quot;</span><span class="s1">)</span>
+<span class="s1">print(result.hexdigest())</span></pre>
+</body>
+</html>

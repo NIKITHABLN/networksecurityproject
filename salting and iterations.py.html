@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>salting and iterations.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #a5c261;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+salting and iterations.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">hashlib</span>
+<span class="s1">dk = hashlib.pbkdf2_hmac(</span><span class="s2">'sha256'</span><span class="s0">, </span><span class="s3">b'password'</span><span class="s0">, </span><span class="s3">b'salt'</span><span class="s0">, </span><span class="s4">100000</span><span class="s1">)</span>
+<span class="s1">dk.hex()</span>
+<span class="s1">print(dk.hex())</span></pre>
+</body>
+</html>

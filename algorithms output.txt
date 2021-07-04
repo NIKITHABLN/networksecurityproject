@@ -1,0 +1,16 @@
+"C:\Users\Shridhar BL\PycharmProjects\Bootcamp\venv\Scripts\python.exe" "C:/Users/Shridhar BL/PycharmProjects/Bootcamp/algorithms.py"
+The hexadecimal equivalent of SHA256 is : 
+e637e5e3b42e6fb116697004d9268021b909f43d46b3779af7b7d87f2b93b217
+
+The hexadecimal equivalent of SHA384 is : 
+9cc73ba707b0a0d12bccc3c88e67b13be9318884364497fa4919a7c2e577f050ae05a91bfa8ef6692546cad7c93da09e
+
+The hexadecimal equivalent of SHA224 is : 
+8c465c4ddefefbbec559902434623b7e84b55f641bcd16cfded4049c
+
+The hexadecimal equivalent of SHA512 is : 
+b5f8e842c29d7531031b7cb85c5ddc3f1aeef1183015409d115e29bc8fd5c198c38cceab184e1a8249cf268bee88697e1a3101bc2a528d3394ec7887d786046d
+
+The hexadecimal equivalent of SHA1 is : 
+e690ef8f34fb364cd1b1a8a4c1d0756431229c3f
+
